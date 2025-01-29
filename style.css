@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato";
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 5rem;
+}
+
+.navbar h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.social-medias {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-medias a {
+  text-decoration: none;
+  color: #969696;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-medias a:hover {
+  color: #fff;
+}
+
+hr {    
+  border-color: #969696;
+  margin: 0 4.5rem;
+}
+
+.hero{
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 70%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+.heading{
+    margin-top: 1rem;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    background: linear-gradient(to right, #969696, #9696964f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem;
+}
+
+.btn-primary{
+    text-decoration: none;
+    background-color: #1a1a1a;
+    border:1px solid #222222;
+    color: #969696;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover{
+    background-color: #969696;
+    color: #1a1a1a;
+}
+
+.client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 5rem;
+    background-color: #1a1a1a;
+    gap: 40px;
+}
+
+.client .client-logo{
+    width: 140px;
+    height: 90px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.client .client-logo:hover{
+    cursor: pointer;
+    filter: grayscale(0%);
+}
+
+.project {
+    margin: 3rem 5rem;
+}
+
+.project h2 {
+    font-size: 28px;
+    text-align: center;
+    background: linear-gradient(to right, #969696, #9696964f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #1A1A1A;
+    border: 1px solid #222222;
+    border-radius: 15;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.project-image {
+    width: 75%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.project-name {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.project-card:hover {
+    cursor: pointer;
+    color:#fff;
+}
+
+.skill{
+  padding: 3rem 5rem;
+  background-color: #1A1A1A;
+  border: #222222;
+}
+
+.skill h2 {
+  font-size: 28px;
+  text-align: center;
+  background: linear-gradient(to right, #969696, #9696964f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2rem;
+}
+
+.skill-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 5rem;
+  gap: 40px;
+}
+
+.skill-card{
+  background-color: #1A1A1A;
+  border: 1px solid #222222;
+  border-radius: 12px;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.skill-card:hover{
+  cursor: pointer;
+  color: #fff;
+}
+
+.skill-list .skill-image{
+  width: 140px ;
+  height: 90px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.skill-list .skill-image:hover{
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+.skill-name{
+  text-align: center;
+  font-size: 16px;
+  margin-top: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-me{
+  padding: 3rem 5rem;
+  background-color: #585858;
+  border: #222222;
+  text-align: center;
+}
+
+.contact-me h2 {
+  font-size: 28px;
+  text-align: center;
+  background: linear-gradient(to right, #969696, #9696964f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2rem;
+}
+
+.hubungi-list{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea{
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+.contact-me .btn-primary{
+  margin-top: 8px;
+}
